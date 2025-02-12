@@ -1,0 +1,80 @@
+/*--General Settings--*/
+body {margin:auto;width :930px;background-color: #D9D9D9;}
+.linkList {margin: 0;padding: 0;}
+.linkList li {background: transparent url(../gfx/linkArrow.gif) no-repeat left center;list-style-type: none; padding-left:10px ;}
+a:link {text-decoration: none;color: #000;}
+a:active {text-decoration: none;color: #000;}
+a:visited {text-decoration:none;color: #00236B;}
+a:hover {text-decoration: underline;color: #3376FF /*#002571*/;}
+
+.clearfix:after { content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clearBoth {clear:both;font-size:1px;}
+
+/*--Main Structure--*/
+.pageWrapper {background: #D9D9D9 url(../gfx/pageBg.gif) repeat-y ; padding:10px 25px;z-index: 1;}
+.pageHeader {margin:0 0 10px 0;padding:0 0 0 0;}
+.pageContent {margin:0 0 10px 0;}
+.pageFooter {border-bottom:1px solid #ff7e00;height:25px;background:transparent url(../gfx/footerBg.gif) repeat-x left top;}
+
+/*--Mast Head***/
+.mastHead {height:200px;margin:0 0 5px 0;background: transparent url(../gfx/mastHead_new1.jpg);}
+
+/*--Menu--*/
+.menu {background: transparent url(../gfx/menuBg.gif) repeat-x left top;}
+.menu .main-menu {margin:0 5px;padding:0;}
+.menu .main-menu li {list-style:none;display:inline;margin:0;}
+.menu .main-menu li a{margin:0;}
+
+/*--Page Content--*/
+.leftCol {float:left; width:180px;margin:0 10px 0 0;font: 13px 'Arial';}
+.content {float:left; width:495px;margin:0 10px 10px 0;font: 13px 'Arial';}
+.content h1 {margin:0; padding: 0; text-align: center;font-size: 1.5em;}
+.content h2 {font-size: 1.2em;}
+.content h3 {margin:0; padding: 0; font-size: 1.0em;text-decoration: underline;}
+.content p {margin-top: 5px; padding: 0;}
+.content .mod-content {background: none;}
+.content .latest-gallery {float:left;margin:15px 10px 0 0;width:100px;}
+.content .latest-gallery .caption {color: #7D7C7C;font-size: 0.9em;}
+.rightCol {float:left; width:180px;font: 13px 'Arial';padding: 0;margin: 0;}
+.footer {text-align:center;font: 0.7em 'Arial';padding:5px 0 0 0;}
+
+/*--Modules--*/
+.mod-header{ background:transparent url(../gfx/mod-title.gif) no-repeat; height: 20px; padding: 1px 0 0 10px;font-family : 'Arial, Helvetica';font-weight: bold; font-size: 14px;border-bottom:1px solid #ff7e00;font:  bold 14px 'Arial';margin: 0 4px 0 0;}
+.mod-content {padding:8px 5px 15px 5px;font: 13px 'Arial';background: transparent url(../gfx/containerBg.gif) no-repeat bottom right;}
+
+.logIn {margin:0 0 10px 0;}
+.logIn .spacer {margin: 0 0 5px 0;}
+.logIn .linkList {margin: 5px 0px 0px 0px;}
+.logIn .errormsg {font-weight:bold;color:#FF0000;margin:0 0 0 5px;}
+
+.satsang {margin:0 0 10px 0;}
+
+.more-links { margin:0 0 10px 0;}
+
+.upcoming-events { margin:0 0 10px 0;}
+.upcoming-events .event {font: bold 14px 'Arial';text-decoration: underline;}
+
+/*--join us page--*/
+.row {display:block; height:30px;}
+.label {float:left;width:150px;}
+.input {float:left;}
+.border {border:2px solid #ff0000;}
+.message {padding:1px; background-color:#F2FBC3; border:1px solid #B9B9B9; position:absolute; margin:4px 0 0 422px; display:none; }
+
+/*--executives--*/
+.executives {display:block; margin:5px 0 0 0;}
+.executives .left {float:left;}
+.executives img {width:80px; height:90px; margin:0 15px 0 0; float:left; border:1px solid #CECECE;}
+.executives .detail {float:left; width:135px;}
+.executives .info {float:left;}
+.executives h2 {margin:0 0 5px 0;}
+
+
+.colHalf {width:50%;}
+.clearBoth {display:block; height:0; font-size:1px; overflow:hidden; clear:both; line-height:1px;}
+.top15 {margin:15px 0 0 0;}
