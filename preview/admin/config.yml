@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/pavan-sp/nzaryasamaj/
+  repo: pavan-sp/nzaryasamaj
   branch: main
   auth_type: pkce
   app_id: Ov23linlLbiuVLNeOGVy
@@ -8,7 +8,6 @@ backend:
 site_url: https://www.nzaryasamaj.org/preview
 display_url: https://www.nzaryasamaj.org/preview
 
-# No image uploads for now
 media_library:
   name: uploadcare
   config:
@@ -17,15 +16,6 @@ media_library:
 collections:
   - name: pages
     label: Pages
-    label_singular: Page
-    folder: content/pages
-    extension: md
-    format: frontmatter-less
-    create: false
-    editor:
-      preview: false
-    fields:
-      - { label: Body, name: body, widget: markdown }
     files:
       - label: Home
         name: home

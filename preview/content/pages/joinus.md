@@ -1,3 +1,5 @@
+---
+---
 # Join Us
 
 We welcome all who wish to join the Arya Samaj family in New Zealand.

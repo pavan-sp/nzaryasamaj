@@ -23,11 +23,17 @@
   let eventsCache = null;
   let searchIndex = null;
 
+  // ── Strip YAML frontmatter used by Decap CMS ──
+  function stripFrontmatter(md) {
+    return md.replace(/^---\n[\s\S]*?---\n/, "");
+  }
+
   // ── Fetch markdown text from a file ──
   async function fetchMD(path) {
     const res = await fetch(path);
     if (!res.ok) throw new Error(res.status);
-    return res.text();
+    const text = await res.text();
+    return stripFrontmatter(text);
   }
 
   // ── Fetch & render a markdown file into an element ──

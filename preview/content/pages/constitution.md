@@ -1,3 +1,5 @@
+---
+---
 # Constitution
 
 The constitution of Arya Samaj Pratinidhi Sabha New Zealand Incorporated

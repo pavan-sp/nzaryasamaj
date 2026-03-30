@@ -1,3 +1,5 @@
+---
+---
 - [Home](/)
 - [Events](/events)
 - [Join Us](/joinus)
@@ -5,4 +7,3 @@
 - [Contact Us](/contactus)
 - [Executives](/executives)
 - [Purohits](/purohits)
-- [Constitution](/constitution)
