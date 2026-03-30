@@ -5,3 +5,4 @@
 - [Contact Us](/contactus)
 - [Executives](/executives)
 - [Purohits](/purohits)
+- [Constitution](/constitution)
