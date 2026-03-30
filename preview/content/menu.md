@@ -1,0 +1,7 @@
+- [Home](/)
+- [Events](/events)
+- [Join Us](/joinus)
+- [About Us](/aboutus)
+- [Contact Us](/contactus)
+- [Executives](/executives)
+- [Purohits](/purohits)
