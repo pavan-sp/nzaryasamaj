@@ -2,9 +2,11 @@ backend:
   name: github
   repo: pavan-sp/nzaryasamaj
   branch: main
-  auth_type: pkce
-  app_id: Ov23liXckHBHs111KOuS   # Production
+  # auth_type: pkce
+  # app_id: Ov23liXckHBHs111KOuS   # Production
   # app_id: Ov23lir99dpPOsOBeLrV # Localhost
+  base_url: https://decapbridge.com
+  auth_endpoint: /auth
 
 site_url: https://www.nzaryasamaj.org/preview
 display_url: https://www.nzaryasamaj.org/preview
