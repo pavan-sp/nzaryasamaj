@@ -7,5 +7,55 @@
 </head>
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: "github",
+          repo: "pavan-sp/nzaryasamaj",
+          branch: "main",
+          auth_type: "pkce",
+          app_id: "Ov23linlLbiuVLNeOGVy"
+        },
+        site_url: "https://www.nzaryasamaj.org/preview",
+        display_url: "https://www.nzaryasamaj.org/preview",
+        media_library: {
+          name: "uploadcare",
+          config: { publicKey: "demopublickey" }
+        },
+        collections: [
+          {
+            name: "pages",
+            label: "Pages",
+            files: [
+              { label: "Home", name: "home", file: "content/pages/home.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "About Us", name: "aboutus", file: "content/pages/aboutus.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Contact Us", name: "contactus", file: "content/pages/contactus.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Join Us", name: "joinus", file: "content/pages/joinus.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Executives", name: "executives", file: "content/pages/executives.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Purohits", name: "purohits", file: "content/pages/purohits.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Constitution", name: "constitution", file: "content/pages/constitution.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Gallery", name: "gallery", file: "content/pages/gallery.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] }
+            ]
+          },
+          {
+            name: "events",
+            label: "Events",
+            files: [
+              { label: "Events List", name: "events_list", file: "content/events_list.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] }
+            ]
+          },
+          {
+            name: "navigation",
+            label: "Navigation",
+            files: [
+              { label: "Menu", name: "menu", file: "content/menu.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] },
+              { label: "Sidebar Links", name: "sidebar_links", file: "content/sidebar-links.md", fields: [{ label: "Body", name: "body", widget: "markdown" }] }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
 </body>
 </html>
