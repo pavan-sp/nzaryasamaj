@@ -3,7 +3,7 @@ backend:
   repo: pavan-sp/nzaryasamaj
   branch: main
   auth_type: pkce
-  app_id: Ov23linlLbiuVLNeOGVy   # Production
+  app_id: Ov23liXckHBHs111KOuS   # Production
   # app_id: Ov23lir99dpPOsOBeLrV # Localhost
 
 site_url: https://www.nzaryasamaj.org/preview
