@@ -8,7 +8,7 @@
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    CMS.init({
+    window.addEventListener('load', function() { CMS.init({
       config: {
         backend: {
           name: "github",
@@ -55,7 +55,7 @@
           }
         ]
       }
-    });
+    }); }); // end CMS.init, end addEventListener
   </script>
 </body>
 </html>
