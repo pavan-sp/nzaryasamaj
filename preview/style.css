@@ -23,6 +23,18 @@ body {
 a { color: var(--primary); text-decoration: none; }
 a:hover { color: var(--accent); }
 
+/* ── Masthead ─────────────────────────────────── */
+#masthead {
+  background: var(--primary-dk);
+  text-align: center;
+  line-height: 0;
+}
+#masthead img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
 /* ── Header ───────────────────────────────────── */
 #site-header {
   background: linear-gradient(135deg, var(--primary-dk), var(--primary));

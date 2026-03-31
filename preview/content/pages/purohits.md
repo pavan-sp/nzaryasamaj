@@ -2,7 +2,18 @@
 ---
 # Purohits
 
-Information about the Purohits (priests) associated with Arya Samaj
-New Zealand.
+The following Purohits (priests) are associated with Arya Samaj Pratinidhi Sabha New Zealand Incorporated.
 
-(Content to be added from your records.)
+## Pta Mrs Shanti Singh
+
+![Pta Mrs Shanti Singh](https://www.nzaryasamaj.org/includes/gfx/members/Pta-Mrs-Shanti-Singh-Arya.jpg)
+
+## Pta Kiran Sundar
+
+![Pta Kiran Sundar](https://www.nzaryasamaj.org/includes/gfx/members/Pta-Kiran-Sundar-PRO.jpg)
+
+## Pt Dhirendra Nath
+
+![Pt Dhirendra Nath](https://www.nzaryasamaj.org/includes/gfx/members/Pt_Dhirendra_Nath.jpg)
+
+For contact details, please visit our [Contact Us](/contactus) page.
