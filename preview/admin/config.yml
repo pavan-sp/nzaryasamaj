@@ -79,7 +79,7 @@ collections:
     files:
       - label: Events List
         name: events_list
-        file: content/events_list.md
+        file: /preview/content/events_list.md
         fields:
           - { label: Body, name: body, widget: markdown }
 
