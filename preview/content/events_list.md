@@ -1,8 +1,7 @@
-### Arya Samaj Auckland
+### Arya Samaj West Auckland 
 
-**Venue:** Portage Hall, New Lynn
+**Satsangh and AGM** 
 
-**Starts:** 25 April 2026, 11:00 AM
+**Venue:** TBC
 
-Program will include hawan yaj, bhajans and pravachan.
-Everyone is welcome to attend.
+**Starts:** Sunday 12 April, 2026 at 5pm
